@@ -74,7 +74,7 @@ public class MyServlet extends HttpServlet {
 		                	out.println("<!DOCTYPE html> \n" + "<html>" + "<head><title>" + title + "</title></head>\n" +
 		        		            "<body bgcolor=\"#f0f0f0\">\n" +
 		        		            "<h1 align=\"center\">" + "Username exist!" + "</h1>\n" +
-		        		            "<center><a href='login.html' class='button'>Click here to Signup</a></center>" +
+		        		            "<center><a href='login.jsp' class='button'>Click here to Signup</a></center>" +
 		        		            " <center><img src= https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1532326532189&di=ab5215351baeb0da26e59b30c723655a&imgtype=0&src=http%3A%2F%2Fc.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2F2934349b033b5bb5bbd1cc903dd3d539b600bc5e.jpg></center>"+
 		        		            "</body></html>");
 		                }
@@ -90,7 +90,7 @@ public class MyServlet extends HttpServlet {
 		    		            "  <h4 align=\"center\">Password: "
 		    		            + pas_wrd +  "<br>" + 
 		    		            "</ul>\n" +
-		    		            "<center><a href='The_real_login.html' class='button'>Click here to login</a></center>"
+		    		            "<center><a href='The_real_login.jsp' class='button'>Click here to login</a></center>"
 		    		            +
 		    		            "</body></html>");
 		            }
@@ -170,8 +170,8 @@ public class MyServlet extends HttpServlet {
 		        	out.println("<!DOCTYPE html> \n" + "<html>" + "<head><title>" + title + "</title></head>\n" +
 		            "<body bgcolor=\"#f0f0f0\">\n" +
 		            "<h1 align=\"center\">" + title + "</h1>\n" +
-		            "<center><a href='The_real_login.html' class='button'>Click here to login</a></center>"+
-		            "<center><a href='login.html' class='button'>Click here to signup</a></center>"+
+		            "<center><a href='The_real_login.jsp' class='button'>Click here to login</a></center>"+
+		            "<center><a href='login.jsp' class='button'>Click here to signup</a></center>"+
 		            " <center><img src= https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1160684446,1076555601&fm=27&gp=0.jpg></center>"+
 		            "</body></html>");
 		        }
